@@ -47,6 +47,11 @@ nav a {
   width: 50px;
 }
 
+#search {
+  width: 70%;
+}
+
+
 #search > div {
   margin-top: 10px;
 }
@@ -58,7 +63,7 @@ nav a {
 }
 
 #search input {
-  width: 1200px;
+  width:95%;
   height: 40px;
   background-color: #f2f2f2;
   border:none;
@@ -75,11 +80,13 @@ nav a {
 .search-bar {
   background-color: #f2f2f2;
   color: black;
+  display: flex;
 }
 
 .npm-search a {
   text-decoration: none;
   color: black;
+  margin-top: 10px;
 }
 
 .npm-search a:hover {
@@ -194,9 +201,3 @@ nav a {
   margin-bottom: 20px;
   font-weight: bolder;
 }
-/*
-form label color: rgba(0,0,0,.05)
-form input color: rgba(0,0,0,.05)
-form button background color: #fb3e44
-form button letters color: white
-*/
